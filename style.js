@@ -20,7 +20,7 @@ function showError(erroeMessage) {
 
 
 
-function showCard (name, country, temp, condition, icon ) { 
+function showCard (name, country, temp, condition, ) { 
     const html = `<div class="card">
 
     <h2 class="card-city">${name} <span>${country}</span></h2>
@@ -73,7 +73,7 @@ if (data.error) {
         data.location.country,
         data.current.temp_c,
         data.current.condition.text,
-        data.current.condition.icon
+        
         
     );
 
@@ -81,11 +81,4 @@ if (data.error) {
     
     
 
-};
-
-function watherIcon() {
-    
-    switch(data.current.country.icon) {
-           case 
-    }
 }
