@@ -27,7 +27,7 @@ function showCard (name, country, temp, condition, ) {
 
     <div class="card-wather">
     <div class="card-value">${temp}<sup>°C</sup></div>
-    <img class="card-img" src="./img/clear.png" alt="Wather">
+    <img class="card-img" src="./img/rain.png" alt="Wather">
     </div>
 
  <div class="card-description">${condition}</div>
@@ -82,3 +82,7 @@ if (data.error) {
     
 
 }
+
+
+
+
